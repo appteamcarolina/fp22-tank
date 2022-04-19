@@ -18,6 +18,10 @@
 		7EBD4A1D280E6C990068075A /* DrinkAddRemoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A1C280E6C990068075A /* DrinkAddRemoveView.swift */; };
 		7EBD4A1F280E73F70068075A /* DrinkOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A1E280E73F70068075A /* DrinkOptionsView.swift */; };
 		7EBD4A21280E74950068075A /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A20280E74950068075A /* WaveAnimation.swift */; };
+		DC0F5F76280F1DB80093BFFD /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */; };
+		DC0F5F78280F3A910093BFFD /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F77280F3A910093BFFD /* DateValue.swift */; };
+		DC0F5F7A280F4B0D0093BFFD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F79280F4B0D0093BFFD /* Task.swift */; };
+		DC0F5F7C280F571A0093BFFD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F7B280F571A0093BFFD /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		7EBD4A1C280E6C990068075A /* DrinkAddRemoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAddRemoveView.swift; sourceTree = "<group>"; };
 		7EBD4A1E280E73F70068075A /* DrinkOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOptionsView.swift; sourceTree = "<group>"; };
 		7EBD4A20280E74950068075A /* WaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
+		DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		DC0F5F77280F3A910093BFFD /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		DC0F5F79280F4B0D0093BFFD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DC0F5F7B280F571A0093BFFD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,10 @@
 				7EBD4A16280E51020068075A /* SettingsView.swift */,
 				7EBD4A18280E51FE0068075A /* NavigationView.swift */,
 				7EBD4A1A280E60FC0068075A /* CalendarView.swift */,
+				DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */,
+				DC0F5F77280F3A910093BFFD /* DateValue.swift */,
+				DC0F5F7B280F571A0093BFFD /* Home.swift */,
+				DC0F5F79280F4B0D0093BFFD /* Task.swift */,
 				7E20DB8C280E2153000E6024 /* Assets.xcassets */,
 				7E20DB8E280E2153000E6024 /* Preview Content */,
 			);
@@ -158,9 +170,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC0F5F76280F1DB80093BFFD /* CustomDatePicker.swift in Sources */,
 				7EBD4A1F280E73F70068075A /* DrinkOptionsView.swift in Sources */,
+				DC0F5F78280F3A910093BFFD /* DateValue.swift in Sources */,
 				7EBD4A1D280E6C990068075A /* DrinkAddRemoveView.swift in Sources */,
+				DC0F5F7A280F4B0D0093BFFD /* Task.swift in Sources */,
 				7EBD4A19280E51FE0068075A /* NavigationView.swift in Sources */,
+				DC0F5F7C280F571A0093BFFD /* Home.swift in Sources */,
 				7E20DB8B280E214D000E6024 /* ContentView.swift in Sources */,
 				7EBD4A1B280E60FC0068075A /* CalendarView.swift in Sources */,
 				7EBD4A17280E51020068075A /* SettingsView.swift in Sources */,
@@ -295,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tipsytracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9JJUH8C8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +319,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tipsytracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9JJUH8C8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -330,6 +349,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

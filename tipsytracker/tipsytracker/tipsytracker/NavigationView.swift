@@ -11,7 +11,7 @@ struct NavigationView: View {
     var body: some View {
         HStack{
             Button(action: {
-                // add calendar view
+                //Calendar view
                 }, label: {
                     Image(systemName: "calendar.badge.plus")
                         .colorInvert()
