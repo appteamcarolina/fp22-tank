@@ -2,7 +2,7 @@
 //  CalendarView.swift
 //  tipsytracker
 //
-//  Created by Lauren Jones on 4/18/22.
+//  Created by Sarayu Yenumula on 4/18/22.
 //
 import SwiftUI
 
@@ -15,7 +15,7 @@ struct CalendarView: View {
         ScrollView(.vertical, showsIndicators: false){
             
             VStack(spacing: 20){
-                //Custome Date Picker...
+                //Custom Date Picker
                 CustomDatePicker(currentDate: $currentDate)
             }
         

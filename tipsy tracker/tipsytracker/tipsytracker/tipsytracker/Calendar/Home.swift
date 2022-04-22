@@ -29,7 +29,7 @@ struct Home: View {
                 Button {
                     
                 } label: {
-                    Text("Add Task")
+                    Text("+ Hangover Rating")
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)
@@ -39,7 +39,7 @@ struct Home: View {
                 Button {
                     
                 } label: {
-                    Text("Add Remainder")
+                    Text("+ Alcohol")
                         .fontWeight(.bold)
                         .padding(.vertical)
                         .frame(maxWidth: .infinity)

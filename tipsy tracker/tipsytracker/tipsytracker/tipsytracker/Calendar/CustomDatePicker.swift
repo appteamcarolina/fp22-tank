@@ -11,7 +11,7 @@ import SwiftUI
 struct CustomDatePicker: View {
     @Binding var currentDate: Date
     
-    // Month update on arrow button clicks...
+    // Month update on arrow button clicks
     @State var currentMonth: Int = 0
     
     var body: some View {
@@ -40,7 +40,7 @@ struct CustomDatePicker: View {
                         currentMonth -= 1
                     }
                 } label: {
-                    Image(systemName: "chevron.backward")
+                    Image(systemName: "chevron.left")
                         .font(.title2)
                 }
 
@@ -51,7 +51,7 @@ struct CustomDatePicker: View {
                     }
                     
                 } label: {
-                    Image(systemName: "chevron.forward")
+                    Image(systemName: "chevron.right")
                         .font(.title2)
                 }
             }
@@ -92,7 +92,7 @@ struct CustomDatePicker: View {
             
             VStack(spacing: 15){
                 
-                Text("Tasks")
+                Text("Hangover Rating")
                     .font(.title2.bold())
                     .frame(maxWidth: .infinity,alignment: .leading)
                     .padding(.vertical,20)
@@ -124,7 +124,7 @@ struct CustomDatePicker: View {
                 }
                 else{
                     
-                    Text("No Task Found")
+                    Text("No Rating Input")
                 }
             }
             .padding()

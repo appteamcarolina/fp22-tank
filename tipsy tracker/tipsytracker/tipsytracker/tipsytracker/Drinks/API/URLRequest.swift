@@ -33,6 +33,8 @@ enum DrinkService {
                 return
             }
 
+            print(String(data: data, encoding: .utf8)!)
+            
             do {
                 let response = try JSONDecoder().decode(Response.self, from: data)
                 completion(.success(response.drinks))

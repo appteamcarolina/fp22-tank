@@ -6,33 +6,49 @@
 //
 import SwiftUI
 
+// Task Model and Sample Tasks
+// Array of Tasks
 struct Task: Identifiable{
     var id = UUID().uuidString
     var title: String
     var time: Date = Date()
 }
 
+// Total Task Meta View
 struct TaskMetaData: Identifiable{
     var id = UUID().uuidString
     var task: [Task]
     var taskDate: Date
 }
 
-func getSampleDate(offset: Int) -> Date{
-    let calendar = Calendar.current
-    let date = calendar.date(byAdding: .day, value: offset, to: Date())
+// sample Date for Testing
+func getSampleDate(offset: Int)->Date{
+    let calender = Calendar.current
+    
+    let date = calender.date(byAdding: .day, value: offset, to: Date())
+    
     return date ?? Date()
 }
 
+// Sample Tasks
 var tasks: [TaskMetaData] = [
-    
-    TaskMetaData(task:[
-        
-        Task(title:"Hungover rating: 8"),
-        Task(title: "I drank xyz")
-    ], taskDate: getSampleDate(offset: 1)),
+
     TaskMetaData(task: [
         
-        Task(title: "I felt pretty xyz")
+        Task(title: "Hangover rating 2/10 with xyz alcohol")
     ], taskDate: getSampleDate(offset: -3)),
+    TaskMetaData(task: [
+        
+        Task(title: "Hangover rating 4/10 with xyz alcohol")
+    ], taskDate: getSampleDate(offset: -8)),
+    TaskMetaData(task: [
+        
+        
+        Task(title: "Hangover rating 6/10 with xyz alcohol")
+    ], taskDate: getSampleDate(offset: -22)),
+    TaskMetaData(task: [
+        
+        
+        Task(title: "Hangover rating 8/10 with xyz alcohol")
+    ], taskDate: getSampleDate(offset: -20)),
 ]
