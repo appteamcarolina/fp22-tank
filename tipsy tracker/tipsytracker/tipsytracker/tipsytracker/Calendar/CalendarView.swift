@@ -2,7 +2,7 @@
 //  CalendarView.swift
 //  tipsytracker
 //
-//  Created by Sarayu Yenumula on 4/18/22.
+//  Created by Lauren Jones on 4/18/22.
 //
 import SwiftUI
 

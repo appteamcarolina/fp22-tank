@@ -43,7 +43,7 @@ extension Drink {
         strVideo: nil,
         strCategory: "Ordinary Drink",
         strDrinkThumb: "",
-        //strDrinkThumb: "www.thecocktaildb.com\images\media\drink\5noda61589575158.jpg",
+//        strDrinkThumb: "www.thecocktaildb.com\images\media\drink\5noda61589575158.jpg",
         strIngredient1: "Tequila",
         strIngredient2: "Triple sec",
         strIngredient3: "Lime juice",

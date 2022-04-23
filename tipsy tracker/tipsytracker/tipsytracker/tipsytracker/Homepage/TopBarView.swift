@@ -86,7 +86,6 @@ struct TopBarView: View {
 //        Spacer()
 //    }
 //}
-
 struct NavigationView_Previews: PreviewProvider {
     static var previews: some View {
         TopBarView()

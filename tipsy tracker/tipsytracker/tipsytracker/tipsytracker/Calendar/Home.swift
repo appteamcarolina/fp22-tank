@@ -17,7 +17,7 @@ struct Home: View {
             VStack(spacing: 20){
                 
                 // Custom Date Picker....
-                CustomDatePicker(currentDate: $currentDate)
+                CustomDatePicker(currentDate: $currentDate, tasks: [Task])
             }
             .padding(.vertical)
         }
@@ -25,6 +25,13 @@ struct Home: View {
         .safeAreaInset(edge: .bottom) {
             
             HStack{
+                NavigationLink(destination: HangoverRatingView(rating: $rating)) {
+                    Text("+ Hangover Rating")
+                        .fontWeight(.bold)
+                        .padding(.vertical)
+                        .frame(maxWidth: .infinity)
+                        .background(Color("Orange"),in: Capsule())
+                }
                 
                 Button {
                     

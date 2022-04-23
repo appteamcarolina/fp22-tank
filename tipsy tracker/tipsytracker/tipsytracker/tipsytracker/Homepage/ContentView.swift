@@ -15,19 +15,20 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 TopBarView()
-//                Spacer()
+                Spacer()
                 ScrollView {
                     VStack{
-                        DrinkAddRemoveView()
+                        DrinkAddRemoveView(drinkincrementer: DrinkIncrementer())
                         SearchView(vm: vm)
                         if !vm.drinks.isEmpty || vm.isLoading {
-                            SearchResultsView(vm: vm)
+                            SearchResultsView(vm: vm, drinkincrementer: DrinkIncrementer())
                         }
-                        Spacer()
+                        //Spacer()
                     }
                 }
                 .alert(isPresented: $vm.showError, content: { alert })
             }
+            Spacer()
         }
     }
     
@@ -55,7 +56,6 @@ struct ContentView: View {
 // can click on each day in calendar
 // when click lead to list of drinks
 // and hangover rating - can fill num stars or beers or something
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

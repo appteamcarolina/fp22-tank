@@ -6,16 +6,22 @@
 //
 import SwiftUI
 
+class DrinkIncrementer: ObservableObject {
+    @Published var numDrinks = 0
+}
+
+
 struct DrinkAddRemoveView: View {
-    @State private var numDrinks = 0
+    //@State private var numDrinks = 0
+    @StateObject var drinkincrementer : DrinkIncrementer
     
     var body: some View {
         HStack {
             Button(action: {
-                if (numDrinks == 0) {
-                    numDrinks = 0
+                if (drinkincrementer.numDrinks == 0) {
+                    drinkincrementer.numDrinks = 0
                 } else {
-                    numDrinks -= 1
+                    drinkincrementer.numDrinks -= 1
                 }
                 }, label: {
                     Image("EmptyGlass")
@@ -23,10 +29,10 @@ struct DrinkAddRemoveView: View {
                         .frame(width: 70.0, height: 70.0)
                 })
             .padding(28)
-            Text("\(numDrinks)")
+            Text("\(drinkincrementer.numDrinks)")
                 .font(.title)
             Button(action: {
-                numDrinks += 1
+                drinkincrementer.numDrinks += 1
                 // add animation
                 }, label: {
                     Image("FullGlass")
@@ -40,6 +46,6 @@ struct DrinkAddRemoveView: View {
 
 struct DrinkAddRemoveView_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkAddRemoveView()
+        DrinkAddRemoveView(drinkincrementer: DrinkIncrementer())
     }
 }

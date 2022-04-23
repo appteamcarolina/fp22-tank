@@ -9,6 +9,7 @@ import SwiftUI
 
 struct SearchResultsView: View {
     @ObservedObject var vm: DrinkListViewModel
+    @StateObject var drinkincrementer : DrinkIncrementer
 
     var body: some View {
             VStack {
@@ -20,8 +21,9 @@ struct SearchResultsView: View {
                     }
                 } else {
                     ForEach(vm.drinks, id: \.idDrink) { drink in
-                        Button {
-                        } label: {
+                        Button(action: {
+                            drinkincrementer.numDrinks += 1
+                        }) {
                             DrinkView(drink: DrinkViewModel(drink: drink))
                         }
                         .buttonStyle(PlainButtonStyle())
@@ -33,7 +35,7 @@ struct SearchResultsView: View {
 
 struct SeachResultsView_Previews: PreviewProvider {
     static var previews: some View {
-        SearchResultsView(vm: DrinkListViewModel())
+        SearchResultsView(vm: DrinkListViewModel(), drinkincrementer: DrinkIncrementer())
     }
 }
 

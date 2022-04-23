@@ -10,6 +10,7 @@ import SwiftUI
 
 struct CustomDatePicker: View {
     @Binding var currentDate: Date
+    @Published var tasks: [Task]
     
     // Month update on arrow button clicks
     @State var currentMonth: Int = 0
@@ -108,8 +109,9 @@ struct CustomDatePicker: View {
                             // For Custom Timing...
                             Text(task.time.addingTimeInterval(CGFloat.random(in: 0...5000)),style: .time)
                             
-                            Text(task.title)
-                                .font(.title2.bold())
+                            HangoverRatingView(taskRating: $taskRating)
+//                            Text(task.title)
+//                                .font(.title2.bold())
                         }
                         .padding(.vertical,10)
                         .padding(.horizontal)
