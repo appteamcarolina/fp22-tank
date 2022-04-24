@@ -8,65 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		7E20DB89280E214D000E6024 /* tipsytrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20DB88280E214D000E6024 /* tipsytrackerApp.swift */; };
+		7E20DB8B280E214D000E6024 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20DB8A280E214D000E6024 /* ContentView.swift */; };
 		7E20DB8D280E2153000E6024 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E20DB8C280E2153000E6024 /* Assets.xcassets */; };
 		7E20DB90280E2153000E6024 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E20DB8F280E2153000E6024 /* Preview Assets.xcassets */; };
-		7E22DD092810CAF80035A300 /* APILink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD082810CAF80035A300 /* APILink.swift */; };
-		7E22DD0B2810CB840035A300 /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD0A2810CB840035A300 /* URLRequest.swift */; };
-		7E22DD0D2810CCE20035A300 /* GivenURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD0C2810CCE20035A300 /* GivenURLRequest.swift */; };
-		7E22DD0F2810CF730035A300 /* DrinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD0E2810CF730035A300 /* DrinkModel.swift */; };
-		7E22DD112810D78B0035A300 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD102810D78B0035A300 /* URLImage.swift */; };
-		7E22DD152810D9490035A300 /* DrinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E22DD142810D9490035A300 /* DrinkViewModel.swift */; };
-		7E55D3FC280F69FD005A9387 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D3FB280F69FD005A9387 /* CalendarView.swift */; };
-		7E55D3FE280F6A1F005A9387 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D3FD280F6A1F005A9387 /* ContentView.swift */; };
-		7E55D402280F6A69005A9387 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D401280F6A69005A9387 /* CustomDatePicker.swift */; };
-		7E55D404280F6A7C005A9387 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D403280F6A7C005A9387 /* DateValue.swift */; };
-		7E55D406280F6A9B005A9387 /* DrinkAddRemoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D405280F6A9B005A9387 /* DrinkAddRemoveView.swift */; };
-		7E55D408280F6AB2005A9387 /* DrinkOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D407280F6AB2005A9387 /* DrinkOptionsView.swift */; };
-		7E55D40A280F6AC7005A9387 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D409280F6AC7005A9387 /* Home.swift */; };
-		7E55D40C280F6ADF005A9387 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D40B280F6ADF005A9387 /* TopBarView.swift */; };
-		7E55D40E280F6AF6005A9387 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D40D280F6AF6005A9387 /* SettingsView.swift */; };
-		7E55D411280F6B51005A9387 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D410280F6B51005A9387 /* StepperView.swift */; };
-		7E55D413280F6B69005A9387 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D412280F6B69005A9387 /* Task.swift */; };
-		7E55D416280F6B94005A9387 /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E55D415280F6B94005A9387 /* WaveAnimation.swift */; };
-		7E860C452810E1AE00208044 /* DrinkListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E860C442810E1AE00208044 /* DrinkListViewModel.swift */; };
-		7E860C472810E2A000208044 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E860C462810E2A000208044 /* DrinkView.swift */; };
-		7E860C492810E39400208044 /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E860C482810E39400208044 /* SearchResultsView.swift */; };
-		7E860C4B2810E45100208044 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E860C4A2810E45100208044 /* SearchView.swift */; };
-		7E860C4D2810EBDB00208044 /* ViewBuilderFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E860C4C2810EBDB00208044 /* ViewBuilderFunc.swift */; };
-		7EFDC3C52813ABEA00E91C0A /* HangoverRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDC3C42813ABEA00E91C0A /* HangoverRatingView.swift */; };
-		DCB4D8A32815D66F008B2F84 /* AddRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB4D8A22815D66F008B2F84 /* AddRatingView.swift */; };
+		7E20DB97280E2961000E6024 /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E20DB96280E2960000E6024 /* StepperView.swift */; };
+		7EBD4A17280E51020068075A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A16280E51020068075A /* SettingsView.swift */; };
+		7EBD4A19280E51FE0068075A /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A18280E51FE0068075A /* NavigationView.swift */; };
+		7EBD4A1B280E60FC0068075A /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A1A280E60FC0068075A /* CalendarView.swift */; };
+		7EBD4A1D280E6C990068075A /* DrinkAddRemoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A1C280E6C990068075A /* DrinkAddRemoveView.swift */; };
+		7EBD4A1F280E73F70068075A /* DrinkOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A1E280E73F70068075A /* DrinkOptionsView.swift */; };
+		7EBD4A21280E74950068075A /* WaveAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBD4A20280E74950068075A /* WaveAnimation.swift */; };
+		DC0F5F76280F1DB80093BFFD /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */; };
+		DC0F5F78280F3A910093BFFD /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F77280F3A910093BFFD /* DateValue.swift */; };
+		DC0F5F7A280F4B0D0093BFFD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F79280F4B0D0093BFFD /* Task.swift */; };
+		DC0F5F7C280F571A0093BFFD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0F5F7B280F571A0093BFFD /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E20DB85280E214D000E6024 /* tipsytracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipsytracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E20DB88280E214D000E6024 /* tipsytrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsytrackerApp.swift; sourceTree = "<group>"; };
+		7E20DB8A280E214D000E6024 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E20DB8C280E2153000E6024 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E20DB8F280E2153000E6024 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7E22DD082810CAF80035A300 /* APILink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILink.swift; sourceTree = "<group>"; };
-		7E22DD0A2810CB840035A300 /* URLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
-		7E22DD0C2810CCE20035A300 /* GivenURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GivenURLRequest.swift; sourceTree = "<group>"; };
-		7E22DD0E2810CF730035A300 /* DrinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkModel.swift; sourceTree = "<group>"; };
-		7E22DD102810D78B0035A300 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
-		7E22DD142810D9490035A300 /* DrinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkViewModel.swift; sourceTree = "<group>"; };
-		7E55D3FB280F69FD005A9387 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		7E55D3FD280F6A1F005A9387 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7E55D401280F6A69005A9387 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
-		7E55D403280F6A7C005A9387 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
-		7E55D405280F6A9B005A9387 /* DrinkAddRemoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAddRemoveView.swift; sourceTree = "<group>"; };
-		7E55D407280F6AB2005A9387 /* DrinkOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOptionsView.swift; sourceTree = "<group>"; };
-		7E55D409280F6AC7005A9387 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
-		7E55D40B280F6ADF005A9387 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
-		7E55D40D280F6AF6005A9387 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		7E55D410280F6B51005A9387 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
-		7E55D412280F6B69005A9387 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		7E55D415280F6B94005A9387 /* WaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
-		7E860C442810E1AE00208044 /* DrinkListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkListViewModel.swift; sourceTree = "<group>"; };
-		7E860C462810E2A000208044 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
-		7E860C482810E39400208044 /* SearchResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
-		7E860C4A2810E45100208044 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		7E860C4C2810EBDB00208044 /* ViewBuilderFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderFunc.swift; sourceTree = "<group>"; };
-		7EFDC3C42813ABEA00E91C0A /* HangoverRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangoverRatingView.swift; sourceTree = "<group>"; };
-		DCB4D8A22815D66F008B2F84 /* AddRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRatingView.swift; sourceTree = "<group>"; };
+		7E20DB96280E2960000E6024 /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		7EBD4A16280E51020068075A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7EBD4A18280E51FE0068075A /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		7EBD4A1A280E60FC0068075A /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		7EBD4A1C280E6C990068075A /* DrinkAddRemoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkAddRemoveView.swift; sourceTree = "<group>"; };
+		7EBD4A1E280E73F70068075A /* DrinkOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOptionsView.swift; sourceTree = "<group>"; };
+		7EBD4A20280E74950068075A /* WaveAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveAnimation.swift; sourceTree = "<group>"; };
+		DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		DC0F5F77280F3A910093BFFD /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		DC0F5F79280F4B0D0093BFFD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DC0F5F7B280F571A0093BFFD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				7E20DB88280E214D000E6024 /* tipsytrackerApp.swift */,
-				7E22DD052810CA840035A300 /* Homepage */,
-				7E22DD032810CA610035A300 /* Calendar */,
-				7E22DD042810CA7B0035A300 /* Drinks */,
-				7E22DD062810CAA90035A300 /* Other */,
+				7E20DB8A280E214D000E6024 /* ContentView.swift */,
+				7E20DB96280E2960000E6024 /* StepperView.swift */,
+				7EBD4A1C280E6C990068075A /* DrinkAddRemoveView.swift */,
+				7EBD4A1E280E73F70068075A /* DrinkOptionsView.swift */,
+				7EBD4A20280E74950068075A /* WaveAnimation.swift */,
+				7EBD4A16280E51020068075A /* SettingsView.swift */,
+				7EBD4A18280E51FE0068075A /* NavigationView.swift */,
+				7EBD4A1A280E60FC0068075A /* CalendarView.swift */,
+				DC0F5F75280F1DB80093BFFD /* CustomDatePicker.swift */,
+				DC0F5F77280F3A910093BFFD /* DateValue.swift */,
+				DC0F5F7B280F571A0093BFFD /* Home.swift */,
+				DC0F5F79280F4B0D0093BFFD /* Task.swift */,
 				7E20DB8C280E2153000E6024 /* Assets.xcassets */,
 				7E20DB8E280E2153000E6024 /* Preview Content */,
 			);
@@ -116,67 +98,6 @@
 				7E20DB8F280E2153000E6024 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		7E22DD032810CA610035A300 /* Calendar */ = {
-			isa = PBXGroup;
-			children = (
-				7E55D3FB280F69FD005A9387 /* CalendarView.swift */,
-				7E55D401280F6A69005A9387 /* CustomDatePicker.swift */,
-				7E55D409280F6AC7005A9387 /* Home.swift */,
-				7E55D403280F6A7C005A9387 /* DateValue.swift */,
-				7EFDC3C42813ABEA00E91C0A /* HangoverRatingView.swift */,
-				7E55D412280F6B69005A9387 /* Task.swift */,
-				DCB4D8A22815D66F008B2F84 /* AddRatingView.swift */,
-			);
-			path = Calendar;
-			sourceTree = "<group>";
-		};
-		7E22DD042810CA7B0035A300 /* Drinks */ = {
-			isa = PBXGroup;
-			children = (
-				7E55D405280F6A9B005A9387 /* DrinkAddRemoveView.swift */,
-				7E860C442810E1AE00208044 /* DrinkListViewModel.swift */,
-				7E860C462810E2A000208044 /* DrinkView.swift */,
-				7E860C482810E39400208044 /* SearchResultsView.swift */,
-				7E860C4A2810E45100208044 /* SearchView.swift */,
-				7E22DD142810D9490035A300 /* DrinkViewModel.swift */,
-				7E22DD072810CADC0035A300 /* API */,
-			);
-			path = Drinks;
-			sourceTree = "<group>";
-		};
-		7E22DD052810CA840035A300 /* Homepage */ = {
-			isa = PBXGroup;
-			children = (
-				7E55D3FD280F6A1F005A9387 /* ContentView.swift */,
-				7E55D40D280F6AF6005A9387 /* SettingsView.swift */,
-				7E55D40B280F6ADF005A9387 /* TopBarView.swift */,
-			);
-			path = Homepage;
-			sourceTree = "<group>";
-		};
-		7E22DD062810CAA90035A300 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				7E22DD082810CAF80035A300 /* APILink.swift */,
-				7E22DD0A2810CB840035A300 /* URLRequest.swift */,
-				7E55D407280F6AB2005A9387 /* DrinkOptionsView.swift */,
-				7E860C4C2810EBDB00208044 /* ViewBuilderFunc.swift */,
-				7E55D410280F6B51005A9387 /* StepperView.swift */,
-				7E55D415280F6B94005A9387 /* WaveAnimation.swift */,
-			);
-			path = Other;
-			sourceTree = "<group>";
-		};
-		7E22DD072810CADC0035A300 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				7E22DD0C2810CCE20035A300 /* GivenURLRequest.swift */,
-				7E22DD0E2810CF730035A300 /* DrinkModel.swift */,
-				7E22DD102810D78B0035A300 /* URLImage.swift */,
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,32 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EFDC3C52813ABEA00E91C0A /* HangoverRatingView.swift in Sources */,
-				7E55D402280F6A69005A9387 /* CustomDatePicker.swift in Sources */,
-				7E22DD112810D78B0035A300 /* URLImage.swift in Sources */,
-				7E55D411280F6B51005A9387 /* StepperView.swift in Sources */,
-				7E860C452810E1AE00208044 /* DrinkListViewModel.swift in Sources */,
-				7E55D40C280F6ADF005A9387 /* TopBarView.swift in Sources */,
+				DC0F5F76280F1DB80093BFFD /* CustomDatePicker.swift in Sources */,
+				7EBD4A1F280E73F70068075A /* DrinkOptionsView.swift in Sources */,
+				DC0F5F78280F3A910093BFFD /* DateValue.swift in Sources */,
+				7EBD4A1D280E6C990068075A /* DrinkAddRemoveView.swift in Sources */,
+				DC0F5F7A280F4B0D0093BFFD /* Task.swift in Sources */,
+				7EBD4A19280E51FE0068075A /* NavigationView.swift in Sources */,
+				DC0F5F7C280F571A0093BFFD /* Home.swift in Sources */,
+				7E20DB8B280E214D000E6024 /* ContentView.swift in Sources */,
+				7EBD4A1B280E60FC0068075A /* CalendarView.swift in Sources */,
+				7EBD4A17280E51020068075A /* SettingsView.swift in Sources */,
+				7E20DB97280E2961000E6024 /* StepperView.swift in Sources */,
+				7EBD4A21280E74950068075A /* WaveAnimation.swift in Sources */,
 				7E20DB89280E214D000E6024 /* tipsytrackerApp.swift in Sources */,
-				7E22DD152810D9490035A300 /* DrinkViewModel.swift in Sources */,
-				7E860C492810E39400208044 /* SearchResultsView.swift in Sources */,
-				7E55D413280F6B69005A9387 /* Task.swift in Sources */,
-				7E22DD0D2810CCE20035A300 /* GivenURLRequest.swift in Sources */,
-				7E55D3FC280F69FD005A9387 /* CalendarView.swift in Sources */,
-				7E22DD0F2810CF730035A300 /* DrinkModel.swift in Sources */,
-				DCB4D8A32815D66F008B2F84 /* AddRatingView.swift in Sources */,
-				7E55D3FE280F6A1F005A9387 /* ContentView.swift in Sources */,
-				7E860C4B2810E45100208044 /* SearchView.swift in Sources */,
-				7E860C4D2810EBDB00208044 /* ViewBuilderFunc.swift in Sources */,
-				7E860C472810E2A000208044 /* DrinkView.swift in Sources */,
-				7E55D40E280F6AF6005A9387 /* SettingsView.swift in Sources */,
-				7E55D404280F6A7C005A9387 /* DateValue.swift in Sources */,
-				7E22DD0B2810CB840035A300 /* URLRequest.swift in Sources */,
-				7E55D416280F6B94005A9387 /* WaveAnimation.swift in Sources */,
-				7E22DD092810CAF80035A300 /* APILink.swift in Sources */,
-				7E55D406280F6A9B005A9387 /* DrinkAddRemoveView.swift in Sources */,
-				7E55D40A280F6AC7005A9387 /* Home.swift in Sources */,
-				7E55D408280F6AB2005A9387 /* DrinkOptionsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tipsytracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9JJUH8C8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tipsytracker/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9JJUH8C8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
